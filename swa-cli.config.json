@@ -6,12 +6,7 @@
       "outputLocation": "build",
       "appBuildCommand": "npm run build",
       "run": "BROWSER=none npm start",
-      "start": {
-        "outputLocation": "http://localhost:3000"
-      },
-      "deploy": {
-        "outputLocation": "build"
-      }
+      "devServerUrl": "http://localhost:3000"
     }
   }
 }
